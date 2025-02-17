@@ -17,16 +17,15 @@ export default function Home() {
                 loop
                 className={styles.video}
             />
-            {/* <div> */}
             <div>
                 <div className={styles.embed}>
-                <iframe src="https://www.youtube.com/embed/19g66ezsKAg" width='200' height='100' />
+                <iframe src="https://www.youtube.com/embed/19g66ezsKAg" width='100' height='100' />
                     <aside className={styles.asideLeft}>
                         <p>Business paragraph 1 here</p>
                     </aside>
                 </div>
                 <div className={styles.embed}>
-                <iframe src="https://www.youtube.com/embed/19g66ezsKAg" width='200' height='100' />
+                <iframe src="https://www.youtube.com/embed/19g66ezsKAg" width='100' height='100' />
                     <aside className={styles.asideRight}>
                         <p>Business paragraph 2 here</p>
                     </aside>
