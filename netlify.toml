@@ -1,0 +1,13 @@
+[[headers]]
+  for = "/_next/static/videos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Optional but recommended for better static asset handling
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable" 
